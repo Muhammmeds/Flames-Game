@@ -6,6 +6,7 @@ export const calculateFlames = (yourName, yourCrushName, setError) => {
 
     let arr1 = yourName.toLowerCase().split('');
     let arr2 = yourCrushName.toLowerCase().split('');
+    console.log(arr1 , arr2)
 
 
     for (let i = 0; i < arr1.length; i++) {
@@ -17,14 +18,15 @@ export const calculateFlames = (yourName, yourCrushName, setError) => {
             i--;
         }
     }
-    let totalCount = (arr1.length + arr2.length) % 7;
+    let totalCount = (arr1.length + arr2.length) % 6;
     setError('');
+    console.log(totalCount)
 
     if(totalCount <= 6){
         return totalCount - 1
 
     }else{
-        return totalCount % 7
+        return totalCount % 6
 
     }
 };
