@@ -18,8 +18,6 @@ export const calculateFlames = (yourName, yourCrushName, setError) => {
         }
     }
     let totalCount = (arr1.length + arr2.length) % 7;
-   
-    
     setError('');
 
     if(totalCount <= 6){
