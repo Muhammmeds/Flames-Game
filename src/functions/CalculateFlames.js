@@ -17,18 +17,8 @@ export const calculateFlames = (yourName, yourCrushName, setError) => {
             i--;
         }
     }
-    console.log(arr1 , arr2)
-    // Count remaining characters
     let totalCount = (arr1.length + arr2.length) % 7;
-    // let flamesMessages1 = [
-    //     "Congratulations, you two are Friends! 🤝",
-    //     "Congrats! You’re Lovers now! 💕",
-    //     "So sweet! You both are Affectionate! 💖",
-    //     "Congrats on your Marriage! 💍",
-    //     "Oh no! You two are Enemies! 😡",
-    //     "You are Siblings! 👯‍♂️"
-    // ];
-    
+   
     
     setError('');
 
