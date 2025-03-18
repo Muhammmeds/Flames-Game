@@ -10,9 +10,6 @@ body{
 
   }
 
-  :root{
-  }
-
 
   .container{
     width: 100%;
@@ -31,7 +28,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
     height: 100%;
     width: 50%;
 
@@ -39,7 +35,6 @@ body{
 
   .section-2 > div{
     height: fit-content;
-    /* border: 1px solid red; */
     width: 55%;
   }
   
@@ -188,10 +183,9 @@ body{
   }
   .section-2{
     width: 100%;
-    /* border: 1px solid red; */
   }
   .section-2 > div{
-    width: 85%;
+    width: 90%;
   }
   .modal > div{
     width: 80%;

@@ -7,7 +7,7 @@ import TextGradient from './components/TextGradient'
 import './Global.css'
 import Button from './components/Button'
 import { calculateFlames } from './functions/CalculateFlames'
-import { Modal } from './components/Modal'
+import Modal from './components/Modal'
 
 function App() {
   const [yourName , setYourName] = useState('')
