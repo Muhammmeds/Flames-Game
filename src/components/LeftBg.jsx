@@ -5,5 +5,4 @@ const LeftBg = () =>{
         </div>
     )
 }
-
 export default LeftBg

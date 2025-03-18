@@ -1,4 +1,4 @@
-export const Modal = ({text,Handle}) =>{
+const Modal = ({text,Handle}) =>{
     return(
         <div className="modal">
             <div>
@@ -11,3 +11,5 @@ export const Modal = ({text,Handle}) =>{
         </div>
     )
 }
+
+export default Modal

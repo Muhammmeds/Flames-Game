@@ -1,6 +1,4 @@
-
-
- const InputLabel = ({children}) =>{
+const InputLabel = ({children}) =>{
 
     return(
         <span className='input-label'>{children}</span>

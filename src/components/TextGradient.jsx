@@ -1,9 +1,9 @@
-import React from 'react'
-
-export default function TextGradient({children}) {
+const TextGradient = ({children}) => {
   return (
     <span className='special-gradient'>
         {children}
     </span>
   )
 }
+
+export default TextGradient
